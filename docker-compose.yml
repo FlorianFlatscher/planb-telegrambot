@@ -1,0 +1,7 @@
+version: '3.9'
+services:
+  planb-telegrambot:
+    build: .
+    image: flo:planb-telegrambot
+    volumes:
+      - ./.env:/usr/src/app/.env
