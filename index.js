@@ -2,7 +2,7 @@
 const {onSessionCreated} = require("./firebase");
 const {bot} = require("./telegram");
 
-const classBandChatId = "-1386013723";
+const classBandChatId = "-1001393298429";
 
 onSessionCreated(async (session, creator) => {
    const message = `🤖 <i>${creator.userName}</i> just created a new session:
